@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.txtRodape {
+    font-family: "Arima", system-ui;
+    font-size: 15px;
+    color: #FF1493;
+}
+
+.linkGithubRodape {
+    color: #CD5C5C;
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 80vw;
+    background-color: white;
+    padding: 20px;
+}
+
+.containerRodape {
+    margin-top: 20px;
+}
+

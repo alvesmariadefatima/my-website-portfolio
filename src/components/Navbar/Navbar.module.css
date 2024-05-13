@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* Estilos do menu */
+.linksNavbar {
+    font-family: "Josefin Slab", serif;
+    font-size: 20px; /* Reduz o tamanho da fonte para dispositivos móveis */
+    color: #FF69B4;
+    padding: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.containerNavbar {
+    display: block;
+    align-items: center;
+}
+
+.containerNome {
+    font-size: 20px; /* Reduz o tamanho da fonte para dispositivos móveis */
+    margin-left: 5px; /* Empurra o nome "Maria de Fátima" para a esquerda */
+}
+
+.containerFavicon {
+    margin-right: 20px; /* Espaçamento entre o favicon e o nome */
+}
+
+.linksNavbar {
+    margin-left: 20px; /* Espaçamento entre os links */
+}
+
+p {
+    font-family: "Josefin Slab", serif;
+    color: #FF69B4;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/* Media queries para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    .containerNavbar {
+        flex-direction: row; /* Altera para layout de coluna em dispositivos móveis */
+        align-items: center; /* Alinha itens à esquerda em dispositivos móveis */
+    }
+
+    .containerFavicon {
+        margin-right: 10px; /* Remove o espaçamento entre o favicon e o nome em dispositivos móveis */
+        margin-bottom: 10px; /* Adiciona espaçamento entre o favicon e os links em dispositivos móveis */
+    }
+
+    .linksNavbar {
+        margin-left: 0; /* Remove o espaçamento entre os links em dispositivos móveis */
+    }
+}

@@ -1,0 +1,174 @@
+/* Estilos base */
+body {
+    background-color: #F08080;
+}
+
+.containerFotoPerfil {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.txtTecnologias, .tituloContatos {
+    font-family: "Josefin Slab", serif;
+    color: white;
+}
+
+.tituloSobreMim, .tituloProjetos, .tituloContatos {
+    font-family: "Josefin Slab", serif;
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.txtSobreMim, .txtcontatos {
+    font-family: "Josefin Slab", serif;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    font-weight: 800;
+}
+
+.txtcontatos {
+    text-align: center;
+}
+
+.tituloContatos {
+    margin-top: 30px;
+}
+
+.textosApresentacao {
+    font-size: 30px;
+    margin-left: 20px; /* Adiciona espaço entre a foto de perfil e os textos de apresentação */
+}
+
+.sectionProjetos {
+    display: grid;
+    font-size: 30px;
+    width: 30vw;
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgProjetos {
+    max-width: 100%; /* Define a largura máxima das imagens como 100% do tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+section p {
+    color: black;
+}
+
+.logo {
+    max-width: '50%'; /* Define a largura máxima das logos como 100% do tamanho do contêiner pai */
+    height: 'auto'; /* Mantém a proporção da imagem */
+}
+
+
+.txtapresentacao {
+    font-family: "Josefin Slab", serif;
+    font-weight: 600;
+    text-align: left;
+    color: white;
+}
+
+.containerProjetos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas com largura igual */
+    grid-gap: 20px; /* Espaçamento entre as colunas */
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.containerTecnologias {
+    justify-content: center; /* Distribui as imagens igualmente na linha */
+    margin-bottom: 20px; /* Adiciona margem abaixo do conjunto de imagens */
+}
+
+.containerSobreMim {
+    margin-top: 60px; /* Adiciona margem acima do texto "Sobre mim" */
+}
+
+.imgDoeAgora {
+    width: 10vw;
+    border-radius: 200px;
+}
+
+.imgProjetos {
+    max-width: 100%; /* Define a largura máxima das imagens como 100% do tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.linksProjetos {
+    text-decoration: none;
+}
+
+.secaoContatos {
+    width: 40vw;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.containerContatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Media queries para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    .tituloSobreMim, .tituloProjetos, .tituloContatos {
+        font-size: 20px; /* Reduz o tamanho da fonte */
+    }
+
+    .txtSobreMim, .txtcontatos {
+        font-size: 15px; /* Reduz o tamanho da fonte */
+        padding: 10px; /* Reduz o preenchimento */
+    }
+
+    .containerProjetos {
+        grid-template-columns: 1fr; /* Altera para layout de coluna em dispositivos móveis */
+        width: 90%; /* Ajusta a largura para ocupar 90% da largura da tela */
+        margin: 20px auto; /* Centraliza horizontalmente e adiciona margem superior e inferior */
+    }
+
+    .containerFotoPerfil {
+        flex-direction: column; /* Altera para layout de coluna em dispositivos móveis */
+        align-items: center; /* Centraliza horizontalmente */
+    }
+
+    .sectionProjetos {
+        width: 90%; /* Ajusta a largura para ocupar 90% da largura da tela */
+        margin: 20px auto; /* Centraliza horizontalmente e adiciona margem superior e inferior */
+    }
+
+    .textosApresentacao {
+        margin-left: 0; /* Remove o espaço à esquerda em dispositivos móveis */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .imgDoeAgora {
+        width: 20vw;
+        border-radius: 200px;
+    }
+
+    .secaoContatos {
+        width: 90%; /* Ajusta a largura para ocupar 90% da largura da tela */
+        margin: 20px auto; /* Centraliza horizontalmente e adiciona margem superior e inferior */
+        padding: 15px; /* Aumenta o preenchimento */
+        box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+    }
+
+    .containerContatos {
+        flex-direction: column; /* Altera para layout de coluna em dispositivos móveis */
+    }
+}
