@@ -12,7 +12,7 @@ const Home = () => {
                 <div className={styles.textosApresentacao}>
                     <p className={styles.txtapresentacao}>Olá, eu sou</p>
                     <h1 className={styles.txtapresentacao}>Maria de Fátima</h1>
-                    <p className={styles.txtapresentacao}>e sou Desenvolvedora Full-Stack & UX Designer</p>
+                    <p className={styles.txtapresentacao}>sou Desenvolvedora Full-Stack & UX Designer</p>
                 </div>
             </div>
 
