@@ -105,8 +105,8 @@ const Home = () => {
 
                 <section className={styles.secaoContatos}>
                     <a href="https://github.com/alvesmariadefatima" target='_blank'><img src="/logotipo-github.png" alt="Logotipo Github" /></a>
-                    <a href="https://www.linkedin.com/in/maria-de-fatima-nunes-alves/" target='_blank'><img src="/logotipo-linkedin.png" alt="Logotipo Linkedin" /></a>
-                    <a href="https://www.instagram.com/devmariadefatima/" target='_blank'><img src="/logotipo-instagram.png" alt="Logotipo Instagram" /></a>
+                    <a href="https://www.linkedin.com/in/maria-de-fatima-alves/" target='_blank'><img src="/logotipo-linkedin.png" alt="Logotipo Linkedin" /></a>
+                    <a href="https://www.instagram.com/alvesmariadefatima.nunes/" target='_blank'><img src="/logotipo-instagram.png" alt="Logotipo Instagram" /></a>
                     <a href="https://mnunesalves334.wixsite.com/maria-de-fatima" target='_blank'><img src="/logotipo-wix.png" alt="Logotipo Wix" /></a>
                     <a href="https://api.whatsapp.com/send/?phone=558298343593&text&type=phone_number&app_absent=0" target='_blank'><img src="/logotipo-whatsapp.png" alt="Logotipo Whatsapp" /></a>
                 </section>
